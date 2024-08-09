@@ -5,6 +5,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    .banner:hover .description {
+      font-size: 11px; 
+      padding: 10px;
+    }
+  }
+
 body{
     justify-content: center;
     align-items: center;
@@ -46,7 +54,7 @@ body{
     padding: 70px 40px;
     border-radius: 10px;
     color: rgb(247, 247, 247);
-    background-color: rgba(7, 7, 7, 0.4);
+    background-color: rgba(7, 7, 7, 0.5);
 
 }
 
@@ -73,15 +81,16 @@ body{
     background-color: rgba(7, 7, 7, 0.8);
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     box-sizing:border-box;
-    padding: 0 50px 0 50px;;
-
+    padding: 0 50px 0 50px;
 }
 
 .banner:hover .description{
     cursor: pointer;
     visibility: visible;
 }
+
 
 #btn {
     width: 130px;
