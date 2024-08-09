@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    min-height: 100px;
+    background: #698474;
+}
+
+.txt{
+    margin: 0 70px 0 70px;
+    text-align: center;
+}
+
+.txt h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+.event-container {
+    width: 100%;
+    height:100%;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    background-size: cover; 
+    background-position: 60%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    display: flex; 
+    position: relative;
+}
+
+.banner-txt {
+    width: 300px;
+    padding: 70px 40px;
+    border-radius: 10px;
+    color: rgb(247, 247, 247);
+    background-color: rgba(7, 7, 7, 0.4);
+
+}
+
+.banner-txt h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+.banner-txt p {
+    font-size: 15px;
+    color:rgb(255, 255, 255);
+}
+
+.description{
+    width: 500px;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: rgb(231, 217, 217);
+    background-color: rgba(7, 7, 7, 0.8);
+    display: flex;
+    flex: 1;
+    box-sizing:border-box;
+    padding: 0 50px 0 50px;;
+
+}
+
+.banner:hover .description{
+    cursor: pointer;
+    visibility: visible;
+}
+
+#btn {
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    background-color: rgba(180, 226, 153, 0.8);
+    letter-spacing: 3px;
+    margin-top:20px;
+    color: rgb(80, 60, 57);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgba(161, 141, 141, 0.99) ;
+}
+
+
